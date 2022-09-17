@@ -1,0 +1,27 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "g++.exe - 生成和调试活动文件",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "C:\\mingw64\\bin",          			 //记得替换为自己的路径
+            "environment": [],
+            "console": "externalTerminal",
+            "externalConsole": true,									 //运行程序时是否弹出命令窗口(黑框框)
+            "MIMode": "gdb",
+            "miDebuggerPath": "C:\\mingw64\\bin\\gdb.exe", //记得替换为自己的路径
+            "setupCommands": [
+                {
+                    "description": "为 gdb 启用整齐打印",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "Compile"//生成exe的任务关键！
+        }
+    ]
+}

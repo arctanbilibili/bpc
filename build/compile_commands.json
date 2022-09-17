@@ -1,0 +1,7 @@
+[
+{
+  "directory": "C:/Users/Administrator/Desktop/bpc/build",
+  "command": "C:\\mingw64\\bin\\gcc.exe   -g -o CMakeFiles\\bbb.dir\\bpc.c.obj -c C:\\Users\\Administrator\\Desktop\\bpc\\bpc.c",
+  "file": "C:/Users/Administrator/Desktop/bpc/bpc.c"
+}
+]

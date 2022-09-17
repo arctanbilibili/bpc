@@ -1,0 +1,110 @@
+{
+	"cmake" : 
+	{
+		"generator" : 
+		{
+			"multiConfig" : false,
+			"name" : "MinGW Makefiles"
+		},
+		"paths" : 
+		{
+			"cmake" : "E:/CMake/bin/cmake.exe",
+			"cpack" : "E:/CMake/bin/cpack.exe",
+			"ctest" : "E:/CMake/bin/ctest.exe",
+			"root" : "E:/CMake/share/cmake-3.23"
+		},
+		"version" : 
+		{
+			"isDirty" : false,
+			"major" : 3,
+			"minor" : 23,
+			"patch" : 0,
+			"string" : "3.23.0-rc4",
+			"suffix" : "rc4"
+		}
+	},
+	"objects" : 
+	[
+		{
+			"jsonFile" : "codemodel-v2-1791aff75e933ca48c7a.json",
+			"kind" : "codemodel",
+			"version" : 
+			{
+				"major" : 2,
+				"minor" : 4
+			}
+		},
+		{
+			"jsonFile" : "cache-v2-efc4d7b6418f1889a1d4.json",
+			"kind" : "cache",
+			"version" : 
+			{
+				"major" : 2,
+				"minor" : 0
+			}
+		},
+		{
+			"jsonFile" : "toolchains-v1-a40f8756e87d76e3cb88.json",
+			"kind" : "toolchains",
+			"version" : 
+			{
+				"major" : 1,
+				"minor" : 0
+			}
+		}
+	],
+	"reply" : 
+	{
+		"client-vscode" : 
+		{
+			"query.json" : 
+			{
+				"requests" : 
+				[
+					{
+						"kind" : "cache",
+						"version" : 2
+					},
+					{
+						"kind" : "codemodel",
+						"version" : 2
+					},
+					{
+						"kind" : "toolchains",
+						"version" : 1
+					}
+				],
+				"responses" : 
+				[
+					{
+						"jsonFile" : "cache-v2-efc4d7b6418f1889a1d4.json",
+						"kind" : "cache",
+						"version" : 
+						{
+							"major" : 2,
+							"minor" : 0
+						}
+					},
+					{
+						"jsonFile" : "codemodel-v2-1791aff75e933ca48c7a.json",
+						"kind" : "codemodel",
+						"version" : 
+						{
+							"major" : 2,
+							"minor" : 4
+						}
+					},
+					{
+						"jsonFile" : "toolchains-v1-a40f8756e87d76e3cb88.json",
+						"kind" : "toolchains",
+						"version" : 
+						{
+							"major" : 1,
+							"minor" : 0
+						}
+					}
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,24 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cppbuild",
+			"label": "Compile",
+			"command": "C:\\mingw64\\bin\\g++.exe",  //记得替换为自己的路径
+			"args": [
+				"-g",
+				"${file}",
+				"-o",
+				"${fileDirname}\\${fileBasenameNoExtension}.exe"
+			],
+			"options": {
+				"cwd": "C:\\mingw64\\bin"         	//记得替换为自己的路径
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build",
+			"detail": "编译器: C:\\mingw64\\bin\\g++.exe"//记得替换为自己的路径
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+    "files.associations": {
+        "ostream": "cpp",
+        "iostream": "cpp",
+        "stdio.h": "c",
+        "unistd.h": "c",
+        "thread-sync.h": "c",
+        "semaphore.h": "c",
+        "thread.h": "c",
+        "fcntl.h": "c",
+        "types.h": "c",
+        "errno.h": "c",
+        "math.h": "c",
+        "martix.h": "c",
+        "cstdlib": "c"
+    },
+    "[c]": {
+        "editor.wordBasedSuggestions": false,
+        "editor.suggest.insertMode": "replace",
+        "editor.semanticHighlighting.enabled": true,
+        "editor.quickSuggestions": {
+            "comments": "on",
+            "strings": "on",
+            "other": "on"
+        }
+    },
+    "cmake.configureOnOpen": true,
+    "C_Cpp.errorSquiggles": "Enabled"
+}
